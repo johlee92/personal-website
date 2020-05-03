@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders the component as expected 1`] = `
+<div
+  className="header-container"
+>
+  <img
+    alt="JYL logo"
+    className="header-image"
+    src="logo.png"
+  />
+  <p>
+    John
+  </p>
+  <img
+    alt="JYL logo"
+    className="header-image"
+    src="menuHamburger.png"
+  />
+</div>
+`;

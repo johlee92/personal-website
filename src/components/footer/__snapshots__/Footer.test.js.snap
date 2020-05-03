@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component renders the component as expected 1`] = `
+<div
+  className="footer-container"
+>
+  <span />
+  <span />
+  <span>
+    <img
+      alt="mail icon"
+      className="footer-image"
+      src="mail.jpg"
+    />
+  </span>
+</div>
+`;
