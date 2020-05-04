@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Footer.css';
-import mailIcon from '../../images/mail.jpg';
 
 class Footer extends Component {
     render() {
@@ -9,7 +8,7 @@ class Footer extends Component {
                 <span></span>
                 <span></span>
                 <span>
-                    <img src={mailIcon} alt="mail icon" className="footer-image"/>
+                    Contact
                 </span>
             </div>
         )
