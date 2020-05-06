@@ -1,21 +1,166 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header component renders the component as expected 1`] = `
-<div
-  className="header-container"
->
-  <img
-    alt="JYL logo"
-    className="header-image"
-    src="logo.png"
-  />
-  <p>
-    John
-  </p>
-  <img
-    alt="JYL logo"
-    className="header-image"
-    src="menuHamburger.png"
-  />
+<div>
+  <div
+    className="header-container"
+  >
+    <img
+      alt="JYL logo"
+      className="header-image"
+      src="logo.png"
+    />
+    <p
+      className="header-mobile"
+    >
+      John
+    </p>
+    <p
+      className="header-screen"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        Home
+      </a>
+    </p>
+    <p
+      className="header-screen"
+    >
+      <a
+        href="/about"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        About
+      </a>
+    </p>
+    <p
+      className="header-screen"
+    >
+      <a
+        href="/journal"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        Journal
+      </a>
+    </p>
+    <p
+      className="header-screen"
+    >
+      <a
+        href="/projects"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        Projects
+      </a>
+    </p>
+    <img
+      alt="menu icon"
+      className="header-image header-mobile"
+      onClick={[Function]}
+      src="menuHamburger.png"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="menu-dropdown header-mobile"
+    >
+      <ul
+        className="menu-dropdown"
+      >
+        <li
+          className="menu-dropdown"
+          onClick={[Function]}
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+            style={
+              Object {
+                "textDecoration": "none",
+              }
+            }
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="menu-dropdown"
+          onClick={[Function]}
+        >
+          <a
+            href="/about"
+            onClick={[Function]}
+            style={
+              Object {
+                "textDecoration": "none",
+              }
+            }
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="menu-dropdown"
+          onClick={[Function]}
+        >
+          <a
+            href="/journal"
+            onClick={[Function]}
+            style={
+              Object {
+                "textDecoration": "none",
+              }
+            }
+          >
+            Journal
+          </a>
+        </li>
+        <li
+          className="menu-dropdown"
+          onClick={[Function]}
+        >
+          <a
+            href="/projects"
+            onClick={[Function]}
+            style={
+              Object {
+                "textDecoration": "none",
+              }
+            }
+          >
+            Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 `;

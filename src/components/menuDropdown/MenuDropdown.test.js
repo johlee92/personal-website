@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import Footer from './Footer';
+import MenuDropdown from './MenuDropdown';
 import { BrowserRouter } from 'react-router-dom';
 
-describe(`Footer component`, () => {
+describe(`MenuDropdown component`, () => {
     it('renders without crashing', () => {
         const div = document.createElement('div');
         ReactDOM.render(
             <BrowserRouter>
-                <Footer />
+                <MenuDropdown />
             </BrowserRouter>
             , div);
         ReactDOM.unmountComponentAtNode(div);
@@ -19,7 +19,7 @@ describe(`Footer component`, () => {
         const tree = renderer
             .create(
                 <BrowserRouter>
-                    <Footer />
+                    <MenuDropdown />
                 </BrowserRouter>
             )
             .toJSON();

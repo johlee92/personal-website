@@ -18,3 +18,17 @@
     width: 25px;
     height: 25px;
 }
+
+.header-screen {
+    display: none;
+}
+
+@media (min-width: 1020px) {
+    .header-mobile {
+        display: none;
+    }
+
+    .header-screen {
+        display: block;
+    }
+}

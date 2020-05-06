@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuDropdown component renders the component as expected 1`] = `
+<div
+  className="menu-dropdown header-mobile"
+>
+  <ul
+    className="menu-dropdown"
+  >
+    <li
+      className="menu-dropdown"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="menu-dropdown"
+    >
+      <a
+        href="/about"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        About
+      </a>
+    </li>
+    <li
+      className="menu-dropdown"
+    >
+      <a
+        href="/journal"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        Journal
+      </a>
+    </li>
+    <li
+      className="menu-dropdown"
+    >
+      <a
+        href="/projects"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        Projects
+      </a>
+    </li>
+  </ul>
+</div>
+`;

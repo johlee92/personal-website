@@ -7,11 +7,17 @@ exports[`Footer component renders the component as expected 1`] = `
   <span />
   <span />
   <span>
-    <img
-      alt="mail icon"
-      className="footer-image"
-      src="mail.jpg"
-    />
+    <a
+      href="/contact"
+      onClick={[Function]}
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+    >
+      Contact
+    </a>
   </span>
 </div>
 `;
