@@ -8,13 +8,13 @@
 .about-me-image {
     margin: 10px 0;
     width: 80%;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .about-me-message {
     margin: 10px 0;
     width: 80%;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 @media (min-width: 720px) {

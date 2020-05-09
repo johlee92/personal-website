@@ -4,7 +4,13 @@ import './Projects.css';
 class Projects extends Component {
     render() {
         return (
-            <div>
+            <div className="projects">
+                <div className="projects-message">
+                    <p>Here's my portfolio</p>
+                </div>
+                <div className="projects-list">
+
+                </div>
             </div>
         )
     }

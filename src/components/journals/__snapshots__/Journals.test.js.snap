@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Journals component renders the component as expected 1`] = `
+<div
+  className="journals"
+>
+  <div
+    className="journals-message"
+  >
+    <p>
+      I'm just a normal guy who enjoys pondering about life. I wanted to share my thoughts and get your feedback to learn and grow together.
+    </p>
+  </div>
+</div>
+`;

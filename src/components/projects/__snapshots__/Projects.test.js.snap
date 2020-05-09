@@ -1,3 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Projects component renders the component as expected 1`] = `<div />`;
+exports[`Projects component renders the component as expected 1`] = `
+<div
+  className="projects"
+>
+  <div
+    className="projects-message"
+  >
+    <p>
+      Here's my portfolio
+    </p>
+  </div>
+  <div
+    className="projects-list"
+  />
+</div>
+`;
