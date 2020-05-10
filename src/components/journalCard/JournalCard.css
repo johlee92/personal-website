@@ -1,0 +1,32 @@
+.journalCard {
+    width: 100%;
+    border: 2px darkgray solid;
+    max-width: 720px;
+    margin-bottom: 25px;
+}
+
+.journalCard h2{
+    margin: 0;
+}
+
+.journalCard-container {
+    padding: 10px;
+}
+
+button.journalCard-button {
+    width: 120px;
+    height: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: 3px black solid;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+button.journalCard-button:hover {
+    color: white;
+    background-color: darkgray;
+}

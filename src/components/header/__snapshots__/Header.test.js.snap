@@ -49,7 +49,7 @@ exports[`Header component renders the component as expected 1`] = `
       className="header-screen"
     >
       <a
-        href="/journal"
+        href="/journals"
         onClick={[Function]}
         style={
           Object {
@@ -95,70 +95,70 @@ exports[`Header component renders the component as expected 1`] = `
       <ul
         className="menu-dropdown"
       >
-        <li
-          className="menu-dropdown"
+        <a
+          href="/"
           onClick={[Function]}
-        >
-          <a
-            href="/"
-            onClick={[Function]}
-            style={
-              Object {
-                "textDecoration": "none",
-              }
+          style={
+            Object {
+              "textDecoration": "none",
             }
+          }
+        >
+          <li
+            className="menu-dropdown"
+            onClick={[Function]}
           >
             Home
-          </a>
-        </li>
-        <li
-          className="menu-dropdown"
+          </li>
+        </a>
+        <a
+          href="/about"
           onClick={[Function]}
-        >
-          <a
-            href="/about"
-            onClick={[Function]}
-            style={
-              Object {
-                "textDecoration": "none",
-              }
+          style={
+            Object {
+              "textDecoration": "none",
             }
+          }
+        >
+          <li
+            className="menu-dropdown"
+            onClick={[Function]}
           >
             About
-          </a>
-        </li>
-        <li
-          className="menu-dropdown"
+          </li>
+        </a>
+        <a
+          href="/journals"
           onClick={[Function]}
-        >
-          <a
-            href="/journal"
-            onClick={[Function]}
-            style={
-              Object {
-                "textDecoration": "none",
-              }
+          style={
+            Object {
+              "textDecoration": "none",
             }
+          }
+        >
+          <li
+            className="menu-dropdown"
+            onClick={[Function]}
           >
-            Journal
-          </a>
-        </li>
-        <li
-          className="menu-dropdown"
+            Journals
+          </li>
+        </a>
+        <a
+          href="/projects"
           onClick={[Function]}
-        >
-          <a
-            href="/projects"
-            onClick={[Function]}
-            style={
-              Object {
-                "textDecoration": "none",
-              }
+          style={
+            Object {
+              "textDecoration": "none",
             }
+          }
+        >
+          <li
+            className="menu-dropdown"
+            onClick={[Function]}
           >
             Projects
-          </a>
-        </li>
+          </li>
+        </a>
       </ul>
     </div>
   </div>

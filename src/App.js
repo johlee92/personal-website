@@ -12,6 +12,9 @@ import JournalPage from './components/journalPage/JournalPage.js';
 import Projects from './components/projects/Projects.js';
 import PersonalWebsiteContext from './personalWebsiteContext.js';
 
+import sampleJournal from './sampleJournal';
+import sampleProjects from './sampleProjects';
+
 
 class App extends React.Component {
   constructor(props) {
@@ -24,11 +27,15 @@ class App extends React.Component {
 
   // function to fetch the latest journals and projects from the api
   dataFetch = () => {
+    this.setState({
+      journals: sampleJournal,
+      projects: sampleProjects
+    })
   }
 
   componentDidMount() {
     // fetch the data to set state accordingly
-    // this.dataFetch();
+    this.dataFetch();
   }
 
   render() {
@@ -46,8 +53,8 @@ class App extends React.Component {
               <Route exact path='/' component={HomePage} />
               <Route exact path='/about' component={AboutMe} />
               <Route exact path='/contact' component={ContactForm} />
-              <Route exact path='/journal' component={Journals} />
-              <Route path='/journal/:journalId' component={JournalPage} />
+              <Route exact path='/journals' component={Journals} />
+              <Route path='/journals/:journalId' component={JournalPage} />
               <Route exact path='/projects' component={Projects} />
             </div>
             <Footer />

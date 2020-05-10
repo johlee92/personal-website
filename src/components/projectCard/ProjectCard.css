@@ -1,0 +1,48 @@
+.projectCard-container {
+    width: 100%;
+    border: 2px darkgray solid;
+    max-width: 720px;
+    margin-bottom: 25px;
+}
+
+.projectCard h2{
+    margin: 0;
+}
+
+.projectCard-description {
+    padding: 10px;
+}
+
+.projectCard-image {
+    display: none;
+    width: 100%;
+}
+
+.projectCard-icon {
+    width: 30px;
+    height: 30px;
+}
+
+button.projectCard {
+    width: 120px;
+    height: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: 3px black solid;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+button.projectCard:hover {
+    color: white;
+    background-color: darkgray;
+}
+
+@media (min-width: 720px) {
+    .projectCard-image {
+        display: block;
+    }
+}

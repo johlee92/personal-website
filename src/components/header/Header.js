@@ -29,7 +29,7 @@ class Header extends Component {
                     <p className="header-mobile">John</p>
                     <p className="header-screen"><Link to='/' style={{ textDecoration: 'none' }}>Home</Link></p>
                     <p className="header-screen"><Link to='/about' style={{ textDecoration: 'none' }}>About</Link></p>
-                    <p className="header-screen"><Link to='/journal' style={{ textDecoration: 'none' }}>Journal</Link></p>
+                    <p className="header-screen"><Link to='/journals' style={{ textDecoration: 'none' }}>Journal</Link></p>
                     <p className="header-screen"><Link to='/projects' style={{ textDecoration: 'none' }}>Projects</Link></p>
                     <img src={menuPic} alt="menu icon" className="header-image header-mobile" onClick={this.menuDisplayChange}/>
                 </div>

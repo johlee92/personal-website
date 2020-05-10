@@ -5,7 +5,7 @@ exports[`AboutMe component renders the component as expected 1`] = `
   className="about-me"
 >
   <img
-    alt="hiking picture in about me"
+    alt="me on a trail"
     className="about-me-image"
     src="about-me-photo.JPG"
   />

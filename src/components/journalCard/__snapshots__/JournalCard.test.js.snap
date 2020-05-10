@@ -1,3 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`JournalCard component renders the component as expected 1`] = `<div />`;
+exports[`JournalCard component renders the component as expected 1`] = `
+<div
+  className="journalCard"
+>
+  <div
+    className="journalCard-container"
+  >
+    <h2>
+      Dogs
+    </h2>
+    <p>
+      January 2, 2019
+    </p>
+    <p>
+      short description of the journal
+    </p>
+    <a
+      href="/journals/1"
+      onClick={[Function]}
+    >
+      <button
+        className="journalCard-button"
+        type="button"
+      >
+        Read More
+      </button>
+    </a>
+  </div>
+</div>
+`;

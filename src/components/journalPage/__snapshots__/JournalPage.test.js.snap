@@ -1,3 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`JournalPage component renders the component as expected 1`] = `<div />`;
+exports[`JournalPage component renders the component as expected 1`] = `
+<main
+  className="App"
+>
+  <h2>
+    Error has been detected! Please refresh page!
+  </h2>
+</main>
+`;

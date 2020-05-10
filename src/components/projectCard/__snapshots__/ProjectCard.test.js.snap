@@ -1,3 +1,89 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ProjectCard component renders the component as expected 1`] = `<div />`;
+exports[`ProjectCard component renders the component as expected 1`] = `
+<div
+  className="projectCard-container"
+>
+  <div
+    className="projectCard-description"
+  >
+    <h2>
+      Get Meals
+    </h2>
+    <img
+      alt="project screenshot"
+      className="projectCard-image"
+      src="https://user-images.githubusercontent.com/52260646/81485803-3cc51300-920d-11ea-9efb-7cbde0b66698.png"
+    />
+    <div>
+      <img
+        alt="React icon"
+        className="projectCard-icon"
+        src="react.png"
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      />
+      <img
+        alt="JavaScript icon"
+        className="projectCard-icon"
+        src="javascript.png"
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      />
+      <img
+        alt="HTML5 icon"
+        className="projectCard-icon"
+        src="html.png"
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      />
+      <img
+        alt="CSS icon"
+        className="projectCard-icon"
+        src="css.jpg"
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      />
+    </div>
+    <p>
+      To make life a little easier during COVID19, use this app to either find or report places that are distributing free food or meals.
+    </p>
+    <div>
+      <a
+        href="https://github.com/zzboncak/get-meals-client"
+        target="_blank"
+      >
+        <button
+          className="projectCard"
+          type="button"
+        >
+          View Code
+        </button>
+      </a>
+      <a
+        href="https://get-meals-app.now.sh/"
+        target="_blank"
+      >
+        <button
+          className="projectCard"
+          type="button"
+        >
+          View Project
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+`;

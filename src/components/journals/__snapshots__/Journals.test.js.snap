@@ -5,7 +5,7 @@ exports[`Journals component renders the component as expected 1`] = `
   className="journals"
 >
   <div
-    className="journals-message"
+    className="journals-container"
   >
     <p>
       I'm just a normal guy who enjoys pondering about life. I wanted to share my thoughts and get your feedback to learn and grow together.
